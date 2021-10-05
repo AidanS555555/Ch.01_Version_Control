@@ -8,13 +8,13 @@ Turtle Documentation: https://docs.python.org/3.3/library/turtle.html?highlight=
 
 '''
 import turtle
-goover=turtle.Turtle()
+yoda=turtle.Turtle()
 screen=turtle.Screen() # makes a screen object
 screen.bgcolor('black') # colors the screen
-goover.pensize(3) # width of pen line
+yoda.pensize(3) # width of pen line
 yoda.speed(10)  # speed of drawing. Go fast to not waste time.
-yoda.color("#00FF00")
-goover.circle(100)  #head
+yoda.color("#0000FF")
+yoda.circle(100)  #head
 yoda.penup()
 yoda.setpos(50,185) #right ear
 yoda.pendown()
